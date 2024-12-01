@@ -1,0 +1,5 @@
+@GestoriumAPI_HostAddress = https://localhost:44387
+
+GET {{GestoriumAPI_HostAddress}}/gestorium/getserviceorder
+Accept: application/json
+###
