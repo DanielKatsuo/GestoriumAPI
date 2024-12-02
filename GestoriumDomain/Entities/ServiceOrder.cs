@@ -1,6 +1,5 @@
-﻿using GestoriumAPI.Domain.Entities;
-
-namespace GestoriumDomain.Entities
+﻿
+namespace GestoriumAPI.Domain.Entities
 {
     public sealed class ServiceOrder : BaseEntity
     {
@@ -13,8 +12,8 @@ namespace GestoriumDomain.Entities
 		public decimal? EstimatedValue { get; set; }
 		public decimal? FinalValue { get; set; }
 		public string? AssignedTo { get; set; }
-		public List<ServiceItem> Items { get; set; } = new List<ServiceItem>();
-		public List<Products> Products { get; set; } = new List<Products>();
+		public List<ServiceItem> Items { get; set; } = [];
+		public List<Products> Products { get; set; } = [];
 
 		public class ServiceItem
 		{
