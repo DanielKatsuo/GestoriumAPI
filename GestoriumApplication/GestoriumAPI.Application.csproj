@@ -7,13 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="OrderCases\CreateOrder\" />
-    <Folder Include="OrderCases\DeleteOrder\" />
-    <Folder Include="OrderCases\GetAllOrder\" />
-    <Folder Include="OrderCases\UpdateOrder\" />
+    <Folder Include="UseCases\DeleteOrder\" />
+    <Folder Include="UseCases\GetAllOrder\" />
+    <Folder Include="UseCases\UpdateOrder\" />
     <Folder Include="Services\" />
     <Folder Include="Shared\Behavior\" />
     <Folder Include="Shared\Exceptions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
   </ItemGroup>
 
   <ItemGroup>
