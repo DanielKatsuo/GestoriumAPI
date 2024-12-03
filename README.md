@@ -10,7 +10,7 @@ Uma solução completa para a criação e gestão de relatórios de pedidos de s
 ---
 
 ## **Descrição**  
-**Relatus** é uma aplicação desenvolvida para automatizar e facilitar a criação de relatórios detalhados de pedidos de serviço.  
+**GestoriumAPI** é uma aplicação desenvolvida para automatizar e facilitar a criação de relatórios detalhados de pedidos de serviço.  
 O objetivo é oferecer aos usuários uma ferramenta intuitiva, robusta e customizável para gerenciar informações e gerar relatórios precisos.
 
 ---
