@@ -10,7 +10,8 @@ namespace GestoriumAPI.Infra.Context
 {
 	public class DataBaseContext(DbContextOptions<DataBaseContext> options) : DbContext(options)
 	{
-		public DbSet<Products> Products { get; set; }
-		public DbSet<ServiceOrder> ServiceOrder { get; set; }
+		public DbSet<Products>? Products { get; set; }
+		public DbSet<ServiceOrder>? ServiceOrder { get; set; }
+		public DbSet<Client>? Client { get; set; }
 	}
 }

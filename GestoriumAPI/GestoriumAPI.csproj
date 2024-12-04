@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GestoriumApplication\GestoriumAPI.Application.csproj" />
+    <ProjectReference Include="..\GestoriumInfra\GestoriumAPI.Infra.csproj" />
   </ItemGroup>
 
 </Project>
