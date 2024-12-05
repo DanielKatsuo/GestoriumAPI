@@ -16,7 +16,7 @@ namespace GestoriumAPI.Infra;
 	{
 		public static void ConfigureInfraApp(this IServiceCollection services, IConfiguration configuration)
 		{
-			var connectionString = configuration.GetConnectionString("SQLite");
+			var connectionString = configuration.GetConnectionString("DefaultConnection");
 			services.AddDbContext<DataBaseContext>(options => options.UseSqlite(connectionString));
 			services.AddScoped<IServiceOrderRepository, ServiceOrderRepository>();
 			services.AddTransient<IClientRepository, ClientRepository>();

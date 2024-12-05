@@ -11,8 +11,8 @@ namespace GestoriumAPI.Application.UseCases.CreateClient
 	{
 		public CreateClientValidator()
 		{
-			RuleFor(x => x.Costumer).NotEmpty().WithMessage("Costumer is required").MinimumLength(3).MaximumLength(50);
-			RuleFor(x => x.CostumerPhone).NotEmpty().WithMessage("CostumerPhone is required").MaximumLength(11);
+			RuleFor(x => x.Customer).NotEmpty().WithMessage("Costumer is required").MinimumLength(3).MaximumLength(50);
+			RuleFor(x => x.CustomerPhone).NotEmpty().WithMessage("CostumerPhone is required").MaximumLength(11);
 		}
 	}
 }

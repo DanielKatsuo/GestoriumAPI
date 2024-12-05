@@ -18,11 +18,12 @@ namespace GestoriumAPI.Application.UseCases.CreateClient
 
 		public async Task<CreateClientResponse> Handle(CreateClientRequest request, CancellationToken cancellationToken)
 		{
-			var user = new Client();
-			user = _mapper.Map<Client>(request);
-			await _clientRepository.AddAsync(user);
+			var client = _mapper.Map<Client>(request);
+			await _clientRepository.AddAsync(client);
 			await _unitOfWork.CommitAsync();
-			return _mapper.Map<CreateClientResponse>(user);
+			return _mapper.Map<CreateClientResponse>(client);
 		}
 	}
+
+
 }
