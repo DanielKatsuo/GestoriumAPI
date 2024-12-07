@@ -13,6 +13,7 @@ namespace GestoriumAPI.Infra.Context
 		public DbSet<Products>? Products { get; set; }
 		public DbSet<ServiceOrder>? ServiceOrder { get; set; }
 		public DbSet<Client>? Client { get; set; }
+		public DbSet<StockMovement>? StockMovement { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{

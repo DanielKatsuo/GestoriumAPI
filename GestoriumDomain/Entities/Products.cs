@@ -8,10 +8,22 @@ namespace GestoriumAPI.Domain.Entities
 {
 	public sealed class Products : BaseEntity
 	{
-		public required string Name { get; init; }
-		public required string Description { get; init; }
-		public decimal Price { get; init; }
-		public int Stock { get; init; }
-		public string? Image { get; init; }
+		public required string Name { get; set; } 
+		public required string Code { get; set; } 
+		public int StockQuantity { get; set; } 
+		public required UnitOfMeasure UnitOfMeasure { get; set; } 
+		public decimal UnitPrice { get; set; } 
+		
+	}
+
+	public enum UnitOfMeasure
+	{
+		Unidade,
+		Kilo,
+		Litro,
+		Metro,
+		Caixa,
+		Pacote,
+		Outro
 	}
 }
