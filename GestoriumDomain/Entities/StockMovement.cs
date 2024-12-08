@@ -25,6 +25,7 @@ namespace GestoriumAPI.Domain.Entities
 	public enum StockStatus
 	{
 		Indisponível,
+		Reduzido,
 		Disponível,
 	}
 }
