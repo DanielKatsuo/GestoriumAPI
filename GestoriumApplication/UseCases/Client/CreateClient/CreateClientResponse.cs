@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GestoriumAPI.Application.UseCases.CreateClient
+namespace GestoriumAPI.Application.UseCases.Client.CreateClient
 {
 	public sealed record CreateClientResponse
 	{

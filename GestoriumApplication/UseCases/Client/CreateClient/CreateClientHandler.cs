@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GestoriumAPI.Application.UseCases.CreateClient
+namespace GestoriumAPI.Application.UseCases.Client.CreateClient
 {
 	public sealed class CreateClientHandler(IClientRepository clientRepository, IUnitOfWork unitOfWork, IMapper mapper) : IRequestHandler<CreateClientRequest, CreateClientResponse>
 	{

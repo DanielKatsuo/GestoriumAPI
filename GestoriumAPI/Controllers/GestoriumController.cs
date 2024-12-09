@@ -1,4 +1,4 @@
-﻿using GestoriumAPI.Application.UseCases.CreateClient;
+﻿using GestoriumAPI.Application.UseCases.Client.CreateClient;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using GestoriumAPI.Domain.Entities;
 
-namespace GestoriumAPI.Application.UseCases.CreateClient
+namespace GestoriumAPI.Application.UseCases.Client.CreateClient
 {
 	public sealed class CreateClientMapper : Profile
 	{
