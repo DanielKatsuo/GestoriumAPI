@@ -1,4 +1,4 @@
-﻿using GestoriumAPI.Domain.Entities;
+﻿using GestoriumAPI.Domain.Entities.Clients;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GestoriumAPI.Domain.Interfaces
 {
-	public interface IClientRepository : IBaseRepository<Client>
+	public interface IClientRepository : IBaseRepository<ClientInfo>
 	{
 	}
 }

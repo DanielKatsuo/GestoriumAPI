@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using GestoriumAPI.Domain.Entities;
+using GestoriumAPI.Domain.Entities.Clients;
 using GestoriumAPI.Domain.Interfaces;
 using MediatR;
 using System;
@@ -18,7 +19,7 @@ namespace GestoriumAPI.Application.UseCases.Client.CreateClient
 
 		public async Task<CreateClientResponse> Handle(CreateClientRequest request, CancellationToken cancellationToken)
 		{
-			var client = _mapper.Map<Client>(request);
+			var client = _mapper.Map<ClientInfo>(request);
 			await _clientRepository.AddAsync(client);
 			await _unitOfWork.CommitAsync();
 			return _mapper.Map<CreateClientResponse>(client);

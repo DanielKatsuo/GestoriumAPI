@@ -1,4 +1,7 @@
-﻿using GestoriumAPI.Domain.Entities;
+﻿using GestoriumAPI.Domain.Entities.Clients;
+using GestoriumAPI.Domain.Entities.Products;
+using GestoriumAPI.Domain.Entities.Reports;
+using GestoriumAPI.Domain.Entities.Stock;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,9 +13,9 @@ namespace GestoriumAPI.Infra.Context
 {
 	public class DataBaseContext(DbContextOptions<DataBaseContext> options) : DbContext(options)
 	{
-		public DbSet<Products>? Products { get; set; }
+		public DbSet<Product>? Products { get; set; }
 		public DbSet<ServiceOrder>? ServiceOrder { get; set; }
-		public DbSet<Client>? Client { get; set; }
+		public DbSet<ClientInfo>? Client { get; set; }
 		public DbSet<StockMovement>? StockMovement { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
-using GestoriumAPI.Domain.Entities;
+using GestoriumAPI.Domain.Entities.Reports;
+using GestoriumAPI.Domain.Entities.Clients;
 
 namespace GestoriumAPI.Application.UseCases.Client.CreateClient
 {
@@ -12,8 +13,8 @@ namespace GestoriumAPI.Application.UseCases.Client.CreateClient
 	{
 		public CreateClientMapper()
 		{
-			CreateMap<CreateClientRequest, Client>();
-			CreateMap<Client, CreateClientResponse>();
+			CreateMap<CreateClientRequest, ClientInfo>();
+			CreateMap<ClientInfo, CreateClientResponse>();
 		}
 	}
 }
