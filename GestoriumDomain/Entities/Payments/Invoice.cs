@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace GestoriumAPI.Domain.Entities.Payments
 {
-	public class Invoice
+	public class Invoice : BaseEntity
 	{
+		public string? InvoiceNumber { get; set; } 
+		public DateTime IssueDate { get; set; } 
+		public DateTime DueDate { get; set; } 
+		public decimal Amount { get; set; } 
+		public string? Status { get; set; } 
+		public string? PaymentMethod { get; set; }
 	}
 }
