@@ -1,4 +1,5 @@
 ﻿using GestoriumAPI.Domain.Entities.Clients;
+using GestoriumAPI.Domain.Entities.Payments;
 using GestoriumAPI.Domain.Entities.Products;
 using GestoriumAPI.Domain.Entities.Reports;
 using GestoriumAPI.Domain.Entities.Stock;
@@ -17,6 +18,9 @@ namespace GestoriumAPI.Infra.Context
 		public DbSet<ServiceOrder>? ServiceOrder { get; set; }
 		public DbSet<ClientInfo>? Client { get; set; }
 		public DbSet<StockMovement>? StockMovement { get; set; }
+		public DbSet<Invoice>? Invoice { get; set; }
+		public DbSet<ProvidedServices>? Report { get; set; }
+
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
