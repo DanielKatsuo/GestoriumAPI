@@ -12,7 +12,6 @@ namespace GestoriumAPI.Domain.Entities.Clients
 		public string? CustomerPhone { get; set; }
 		public string? CustomerAddress { get; set; }
 		public string? CustomerCity { get; set; }
-		public string? CustomerContactName { get; set; }
 		public decimal? CustomerDebt { get; set; }
 	}
 }
