@@ -10,18 +10,25 @@ Uma solução completa para a criação e gestão de relatórios de pedidos de s
 ---
 
 ## **Descrição**  
-**GestoriumAPI** é uma aplicação desenvolvida para automatizar e facilitar a criação de relatórios detalhados de pedidos de serviço.  
-O objetivo é oferecer aos usuários uma ferramenta intuitiva, robusta e customizável para gerenciar informações e gerar relatórios precisos.
-
+**GestoriumAPI** é a API do Gestorium, um sistema moderno e eficiente, desenvolvido para simplificar a gestão de pequenos negócios. Com uma interface intuitiva e recursos essenciais, ele oferece aos empreendedores as ferramentas necessárias para organizar operações, acompanhar vendas e controlar o estoque, tudo de forma prática e acessível.
 ---
 
 ## **Funcionalidades**  
-- Cadastro e acompanhamento de pedidos de serviço.  
-- Geração de relatórios em diversos formatos (PDF, Excel, etc.).  
-- Personalização de filtros e campos do relatório.  
-- Visualização em tempo real dos dados.  
-- Exportação e compartilhamento de relatórios.  
 
+1. **Gerenciamento de Produtos**:
+    - Cadastro e atualização de produtos, com informações como nome, descrição, preço, estoque e categoria.
+    - Controle fácil de níveis de estoque, evitando falta ou excesso de produtos.
+2. **Controle de Vendas**:
+    - Registro rápido de vendas com geração de recibos para clientes.
+    - Histórico de transações para acompanhamento de performance.
+3. **Cadastro de Clientes**:
+    - Organização de dados dos clientes, como contatos e histórico de compras.
+    - Fidelização com base em dados de comportamento.
+4. **Relatórios Simplificados**:
+    - Visão geral de receitas, despesas e vendas por período.
+    - Insights básicos para apoiar na tomada de decisões estratégicas.
+    - Relatórios de cadastro e acompanhamento de pedidos de serviço.  
+    - Geração de relatórios em diversos formatos (PDF, Excel, etc.).  
 ---
 
 ## **Tecnologias Utilizadas**  
