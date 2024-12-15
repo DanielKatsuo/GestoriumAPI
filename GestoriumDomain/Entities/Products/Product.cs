@@ -10,7 +10,7 @@ namespace GestoriumAPI.Domain.Entities.Products
 	{
 		public required string Name { get; set; }
 		public required string Code { get; set; }
-		public int StockQuantity { get; set; }
+		public decimal StockQuantity { get; set; }
 		public int MinQuantity { get; set; }
 		public required UnitOfMeasure UnitOfMeasure { get; set; }
 		public decimal UnitPrice { get; set; }
