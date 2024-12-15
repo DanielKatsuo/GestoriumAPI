@@ -11,6 +11,7 @@ Uma solução completa para a criação e gestão de relatórios de pedidos de s
 
 ## **Descrição**  
 **GestoriumAPI** é a API do Gestorium, um sistema moderno e eficiente, desenvolvido para simplificar a gestão de pequenos negócios. Com uma interface intuitiva e recursos essenciais, ele oferece aos empreendedores as ferramentas necessárias para organizar operações, acompanhar vendas e controlar o estoque, tudo de forma prática e acessível.
+
 ---
 
 ## **Funcionalidades**  
