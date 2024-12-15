@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace GestoriumAPI.Domain.Enums
 {
-	public enum MovementType
+	public enum ServiceOrderStatus
 	{
-		Entrada = 0,
-		Saída = 1
-	}
-	public enum StockStatus
-	{
-		Indisponível = 0,
-		Reduzido = 1,
-		Disponível = 2
+		Cancelado = 0,
+		Aberto = 1,
+		EmProgresso = 2,
+		Completo = 3
 	}
 }

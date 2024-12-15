@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace GestoriumAPI.Domain.Enums
 {
-	public enum MovementType
+	public enum PaymentMethod
 	{
-		Entrada = 0,
-		Saída = 1
-	}
-	public enum StockStatus
-	{
-		Indisponível = 0,
-		Reduzido = 1,
-		Disponível = 2
+		Dinheiro = 0,
+		Crédito = 1,
+		Débito = 2,
+		Pix = 3
 	}
 }
