@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GestoriumAPI.Domain.Entities
+namespace GestoriumAPI.Domain.Entities.Base
 {
 	public abstract class BaseEntity
 	{

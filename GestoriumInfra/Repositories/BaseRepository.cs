@@ -1,4 +1,4 @@
-﻿using GestoriumAPI.Domain.Entities;
+﻿using GestoriumAPI.Domain.Entities.Base;
 using GestoriumAPI.Domain.Interfaces;
 using GestoriumAPI.Infra.Context;
 using Microsoft.EntityFrameworkCore;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GestoriumAPI.Domain.Entities.Base;
 using GestoriumAPI.Domain.Entities.Products;
 using GestoriumAPI.Domain.Enums;
 namespace GestoriumAPI.Domain.Entities.Stock

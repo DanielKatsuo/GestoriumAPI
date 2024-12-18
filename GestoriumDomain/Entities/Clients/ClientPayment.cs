@@ -1,4 +1,4 @@
-using GestoriumAPI.Domain.Entities;
+using GestoriumAPI.Domain.Entities.Base;
 using GestoriumAPI.Domain.Enums;
 
 namespace GestoriumAPI.Domain.Entities.Clients;

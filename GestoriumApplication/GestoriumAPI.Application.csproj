@@ -7,9 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="UseCases\Client\DeleteClient\" />
-    <Folder Include="UseCases\Client\GetAllClient\" />
-    <Folder Include="UseCases\Client\UpdateClient\" />
+    <Folder Include="Shared\UseCases\Client\DeleteClient\" />
+    <Folder Include="Shared\UseCases\Client\GetAllClient\" />
     <Folder Include="Shared\Exceptions\" />
   </ItemGroup>
 

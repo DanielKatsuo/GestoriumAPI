@@ -2,6 +2,7 @@
 using GestoriumAPI.Domain.Entities.Products;
 using System.Security.Cryptography.X509Certificates;
 using GestoriumAPI.Domain.Entities.Items;
+using GestoriumAPI.Domain.Entities.Base;
 
 namespace GestoriumAPI.Domain.Entities.Reports
 {

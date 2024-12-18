@@ -9,20 +9,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GestoriumAPI.Application.UseCases.Client.CreateClient
+namespace GestoriumAPI.Application.Shared.UseCases.Client.UpdateClient
 {
-	public sealed class CreateClientHandler(IClientRepository clientRepository, IUnitOfWork unitOfWork, IMapper mapper) : IRequestHandler<CreateClientRequest, CreateClientResponse>
+	public sealed class UpdateClientHandler(IClientRepository clientRepository, IUnitOfWork unitOfWork, IMapper mapper) : IRequestHandler<UpdateClientRequest, UpdateClientResponse>
 	{
 		private readonly IClientRepository _clientRepository = clientRepository;
 		private readonly IMapper _mapper = mapper;
 		private readonly IUnitOfWork _unitOfWork = unitOfWork;
 
-		public async Task<CreateClientResponse> Handle(CreateClientRequest request, CancellationToken cancellationToken)
+		public async Task<UpdateClientResponse> Handle(UpdateClientRequest request, CancellationToken cancellationToken)
 		{
 			var client = _mapper.Map<ClientInfo>(request);
-			await _clientRepository.AddAsync(client);
+			await _clientRepository.UpdateAsync(client);
 			await _unitOfWork.CommitAsync();
-			return _mapper.Map<CreateClientResponse>(client);
+			return _mapper.Map<UpdateClientResponse>(client);
 		}
 	}
 
