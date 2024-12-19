@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace GestoriumAPI.Application.Shared.UseCases.Client.CreateClient
 {
-	public sealed class UpdateClientValidator : AbstractValidator<UpdateClientRequest>
+	public sealed class CreateClientValidator : AbstractValidator<CreateClientRequest>
 	{
-		public UpdateClientValidator()
+		public CreateClientValidator()
 		{
 			RuleFor(x => x.Customer).NotEmpty().WithMessage("Costumer is required").MinimumLength(3).MaximumLength(50);
 			RuleFor(x => x.CustomerPhone).NotEmpty().WithMessage("CostumerPhone is required").MaximumLength(11);

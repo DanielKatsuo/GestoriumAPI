@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GestoriumAPI.Application.Shared.UseCases.Client.CreateClient
 {
-	public sealed record UpdateClientRequest(string Customer, string CustomerPhone) : IRequest<UpdateClientResponse>
+	public sealed record CreateClientRequest(string Customer, string CustomerPhone) : IRequest<CreateClientResponse>
 	{
 
 	}

@@ -9,12 +9,12 @@ using GestoriumAPI.Domain.Entities.Clients;
 
 namespace GestoriumAPI.Application.Shared.UseCases.Client.CreateClient
 {
-	public sealed class UpdateClientMapper : Profile
+	public sealed class CreateClientMapper : Profile
 	{
-		public UpdateClientMapper()
+		public CreateClientMapper()
 		{
-			CreateMap<UpdateClientRequest, ClientInfo>();
-			CreateMap<ClientInfo, UpdateClientResponse>();
+			CreateMap<CreateClientRequest, ClientInfo>();
+			CreateMap<ClientInfo, CreateClientResponse>();
 		}
 	}
 }
