@@ -13,7 +13,7 @@ namespace GestoriumAPI.Controllers
 		private readonly IMediator _mediator = mediator;
 
 		[HttpPost]
-		public async Task<ActionResult<CreateClientResponse>> Create (CreateClientRequest request)
+		public async Task<ActionResult<CreateClientResponse>> Create(CreateClientRequest request)
 		{
 			var response = await _mediator.Send(request);
 			return Ok(response);
