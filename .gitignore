@@ -362,3 +362,6 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /GestoriumAPI/gestorium.db
+/GestoriumAPI/gestorium.db
+/GestoriumAPI/gestorium.db-shm
+/GestoriumAPI/gestorium.db-wal
