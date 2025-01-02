@@ -34,6 +34,6 @@ Uma solução completa para a criação e gestão de relatórios de pedidos de s
 
 ## **Tecnologias Utilizadas**  
 - **Linguagem de Programação:** _C#_  
-- **Framework:** _.NET Core_  
+- **Framework:** _.NET 8_  
 - **Banco de Dados:** _PostgreSQL_  
 - **Outras Tecnologias:** _Docker_  
