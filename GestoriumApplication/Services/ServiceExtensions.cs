@@ -1,5 +1,7 @@
 ﻿using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
+using MediatR;
+using GestoriumAPI.Application.Shared.Behavior;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +21,7 @@ namespace GestoriumAPI.Application.Services
 				cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
 			});
 			services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+			services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 		}
 	}
 }
