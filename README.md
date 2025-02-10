@@ -1,7 +1,7 @@
 # **GestoriumAPI**  
 ![Standard version with dark background](https://github.com/user-attachments/assets/b1115baa-d835-4a13-b214-46246ce16a7c)
 
-Uma solução completa para a criação e gestão de relatórios de pedidos de serviço, oferecendo praticidade, personalização e eficiência.
+Uma solução completa para a criação e gestão de relatórios de pedidos e serviço, oferecendo praticidade, personalização e eficiência.
 
 ## **Índice**  
 - [Descrição](#descrição)  
